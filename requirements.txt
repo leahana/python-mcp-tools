@@ -1,0 +1,4 @@
+quarry>=1.8.3
+twisted>=22.10.0
+mcp>=0.1.0
+fastmcp>=0.1.0 

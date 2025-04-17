@@ -1,0 +1,35 @@
+{
+    "name": "python-mcp-tools",
+    "version": "1.0.0",
+    "description": "Python MCP Tools Service",
+    "tools": [
+        {
+            "name": "get_weather",
+            "description": "获取天气信息",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "string": {
+                        "type": "string",
+                        "description": "输入字符串"
+                    }
+                },
+                "required": ["string"]
+            }
+        },
+        {
+            "name": "get_bbw_info",
+            "description": "获取布布威相关信息",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "string": {
+                        "type": "string",
+                        "description": "输入字符串"
+                    }
+                },
+                "required": ["string"]
+            }
+        }
+    ]
+} 

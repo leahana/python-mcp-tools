@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "pkBJ5pbGF4hTwEGiKp0Zp": {
+      "isActive": false,
+      "name": "Python MCP Tools",
+      "description": "Python MCP Tools 服务器",
+      "baseUrl": "http://127.0.0.1:8000",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "B:\\RiderProjects\\python-mcp\\venv\\Scripts\\activate && python B:\\RiderProjects\\python-mcp\\main.py"
+      ],
+      "env": {
+        "PYTHONPATH": "B:\\RiderProjects\\python-mcp"
+      }
+    }
+  }
+} 
